@@ -14,7 +14,7 @@
   "description": "Visualize RSS/Atom feeds",
   "devDependencies": {
     "@babel/core": "^7.26.0",
-    "@grafana/eslint-config": "^8.0.0",
+    "@grafana/eslint-config": "^9.0.0",
     "@grafana/plugin-e2e": "^1.14.1",
     "@grafana/tsconfig": "^2.0.0",
     "@playwright/test": "^1.49.1",
