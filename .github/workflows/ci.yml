@@ -72,13 +72,13 @@ jobs:
           fail_ci_if_error: false
 
       - name: Upload artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f # v7
         with:
           name: ${{ steps.metadata.outputs.archive }}
           path: ${{ steps.metadata.outputs.archive }}
 
       - name: Upload artifact checksum
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f # v7
         with:
           name: ${{ steps.metadata.outputs.archive-checksum }}
           path: ${{ steps.metadata.outputs.archive-checksum }}
